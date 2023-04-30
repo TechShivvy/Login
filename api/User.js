@@ -42,7 +42,8 @@ router.use(cookieParser());
 
 const development = "http://localhost:5000/";
 const production = "https://login-gwub.onrender.com/";
-const currentUrl = process.env.NODE_ENV ? production : development;
+// const currentUrl = process.env.NODE_ENV ? production : development;
+const currentUrl = 1? production : development;
 
 let transporter = nodemailer.createTransport({
   service: "Gmail",
