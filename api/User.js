@@ -461,7 +461,7 @@ const sendVerificationEmail = ({ _id, email }, res) => {
       `<p>Please click on the following link to verify your email address:</p>` +
       `<p>This link <b>expires in 6 hours</b>.</p>` +
       `<p>Press <a href=${
-        currentUrl + "user/verify/" + _id + "/" + uniqueString
+        "https://login-gwub.onrender.com/" + "user/verify/" + _id + "/" + uniqueString
       }>here</a> to proceed.</p>`,
   };
 
